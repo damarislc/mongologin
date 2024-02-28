@@ -8,6 +8,8 @@ import viewsRouter from "./routes/views.router.js";
 import __dirname from "./utils.js";
 import path from "path";
 import { connect } from "mongoose";
+
+//IMPORTANTE cambiar esto por tu URL de mongo, este archivo no lo subi al repo
 import { mongourl } from "../config.js";
 
 const app = expres();
