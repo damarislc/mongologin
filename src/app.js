@@ -32,7 +32,7 @@ app.use(
   session({
     store: MongoStore.create({
       mongoUrl: mongourl,
-      ttl: 1000,
+      ttl: 30,
     }),
     secret: "coderhouse",
     resave: false,
